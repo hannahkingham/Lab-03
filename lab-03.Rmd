@@ -31,7 +31,8 @@ Each row represents the different the different award winners.
 #### Code
 
 ```{r nobel-living}
-# remove this comment and add your code here
+nobel_living <- nobel %>%
+  filter(!is.na(country))
 ```
 
 #### Narrative
